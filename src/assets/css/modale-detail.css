@@ -1,0 +1,218 @@
+.border-dialog {
+  box-shadow: var(--box-shadow);
+  height: 85%;
+  grid-column: 1/5;
+  align-self: center;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.dialog-details-projets {
+  background-color: var(--light);
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.project-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.top-dialog {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr;
+}
+
+.title-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.title-stack h3 {
+  margin: 0;
+}
+
+.title-stack .list-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1;
+}
+
+.img-modale-projet {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.btn-close {
+  align-self: flex-end;
+}
+
+.btns-dialog {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.link-visitez {
+  display: flex;
+}
+
+.links-container {
+  display: flex;
+  gap: 2rem;
+  font-weight: 700;
+}
+
+/* --------------------THEME CLASSIC-------------------*/
+
+.border-dialog.theme-classic {
+  background-image: url(../img/fond-accueil-2.png);
+  background-size: auto 100%;
+  border-radius: 20px;
+}
+
+.dialog-details-projets.theme-classic {
+  border: 4px solid var(--blue-dark);
+}
+
+.img-modale-projet.theme-classic {
+  border: 1px solid var(--dark);
+  border-radius: 20px;
+}
+
+.dialog-details-projets.theme-classic a,
+.dialog-details-projets.theme-color a {
+  color: var(--dark);
+  border-color: transparent;
+  transition: all 0.3s;
+  width: fit-content;
+}
+
+.dialog-details-projets.theme-classic a:hover,
+.dialog-details-projets.theme-color a:hover {
+  border-color: var(--dark);
+}
+
+.title-stack.theme-classic .list-details li {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  max-width: 90px;
+  text-align: center;
+}
+
+.title-stack.theme-classic .list-details li img {
+  width: 60px;
+  height: 60px;
+}
+
+/* --------------------THEME COLOR-------------------*/
+
+.border-dialog.theme-color {
+  background-image: url(../img/motifs-couleurs.png);
+  background-size: 100%;
+  border-radius: 50px;
+}
+
+.dialog-details-projets.theme-color {
+  border: 2px solid var(--orange-light);
+  border-radius: 50px;
+}
+
+.img-modale-projet.theme-color {
+  border: 1px solid var(--dark);
+  border-radius: 50px;
+}
+
+.title-stack.theme-color .list-details li {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  max-width: 90px;
+  text-align: center;
+}
+
+.title-stack.theme-color .list-details li img {
+  width: 60px;
+  height: 60px;
+}
+
+/* --------------------THEME DARK-------------------*/
+
+.dialog-details-projets.theme-dark {
+  background-color: var(--dark);
+  border: 2px solid var(--light);
+  border-radius: 0;
+}
+
+.img-modale-projet.theme-dark {
+  border: 1px solid var(--light);
+  border-radius: 0px;
+}
+
+.title-stack.theme-dark .list-details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.title-stack.theme-dark .list-details li {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  padding: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.title-stack.theme-dark .list-details li img {
+  width: 24px;
+  height: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .border-dialog {
+    grid-column: 2 / 4;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .border-dialog {
+    padding: 2rem;
+    grid-column: 3 / 11;
+  }
+
+  .border-dialog.theme-classic,
+  .border-dialog.theme-color {
+    background-size: 150%;
+  }
+
+  .top-dialog {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .btns-dialog {
+    width: calc(100% - 2rem);
+    position: absolute;
+    bottom: 1rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .project-details-container {
+    padding: 0 4rem;
+  }
+}

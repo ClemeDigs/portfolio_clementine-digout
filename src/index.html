@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="./assets/js/main.js" defer></script>
+    <script src="https://kit.fontawesome.com/59d9a3259e.js" crossorigin="anonymous" defer></script>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="icon" type="image/x-icon" href="./assets/img/CD.svg">
+    <title>Portefolio de Clémentine</title>
+  </head>
+
+  <body class="animate__animated theme-classic">
+    
+    <header class="animate__animated theme-classic">
+        <a href="./index.html" class="nom theme-classic">Clémentine Digout</a>
+      </div>
+      <nav class="nav-header theme-classic">
+        <ul class="theme-classic">
+          <li><a href="#mes-projets" class="theme-classic">Projets</a></li>
+          <li><a href="#experience" class="theme-classic">À propos</a></li>
+          <li class="contact-nav"><a href="mailto:clementine.digout@yahoo.fr" class="theme-classic">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="icones theme-classic">
+        <button class="menu-mobile btn-none theme-classic"><i class="fa-solid fa-bars" data-dialog="#nav-mobile"></i></button>
+        <label for="btn-switch-theme" class="color-toggle-wrapper theme-switcher theme-classic">
+          <input id="btn-switch-theme-classic" checked name="btn-switch-theme" value="classic" class="color-toggle-classic" type="radio">
+          <input id="btn-switch-theme-color" name="btn-switch-theme" value="color" class="color-toggle-color" type="radio">
+          <input id="btn-switch-theme-dark" name="btn-switch-theme" value="dark" class="color-toggle-dark" type="radio">
+          <div class="sun-moon"></div>
+          <div class="dot1"></div>
+          <div class="dot2"></div>
+          <div class="dot3"></div>
+          <div class="dots-moon"></div>
+        </label>
+      </div>
+      <div class="footer-theme-dark hidden">
+        <div class="contact theme-dark" id="contact">
+          <a href="mailto:clementine.digout@yahoo.fr">
+            <i class="fa-regular fa-envelope"></i>
+            <p>Contact</p>
+          </a>
+        </div>
+        <div class="footer__icons theme-dark">
+        <a href="https://www.linkedin.com/in/clementine-digout-400a632a5/" target="_blank">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/ClemeDigs/portefolio_3.git" target="_blank"><i class="fa-brands fa-github"></i></a>
+      </div>
+      </div>
+      <div class="dialog" id="nav-mobile">
+        <div class="nav-mobile theme-classic">
+          <button class="btn-primary btn-close close-mobile-menu theme-classic"><i class="fa-solid fa-xmark"></i></button>
+          <nav class="theme-classic">
+            <ul class="theme-classic">
+              <li><a href="#mes-projets">Projets</a></li>
+              <li><a href="#experience">À propos</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="theme-classic">
+      
+      <section class="accueil theme-classic">
+        <div class="text-accueil">
+          <h2 class="ml6">
+            <span class="text-wrapper">
+              <span class="portfolio letters">PORTFOLIO</span>
+            </span>
+          </h2>
+          <div class="year-dune">
+            <h3 class="year ml5">
+              <span class="text-wrapper">
+                <span class="line line1"></span>
+                <span class="letters letters-left">2024</span>
+                <span class="line line2"></span>
+              </span>
+            </h3>
+            <p class="dune">d'une</p>
+          </div>
+            <div class="prog-junior animate__animated animate__rotateIn animate__delay-2s">
+              <p class="text-prog-junior">développeuse &#10022; <br>junior passionnée</p>
+            </div>
+        </div>
+      </section>
+
+      <div class="wrapper">
+        <section class="section-hero theme-classic">
+          <div class="banner__left theme-classic">
+                  <div class="banner__content theme-classic">
+                      <h1 class="theme-classic">Design Web et Developpement</h1>
+                      <p class="theme-classic">Future diplomée en AEC de production en médias interactifs, j'ai décidé de poser ma toque de cheffe pâtissière pour développer mes capacités artistiques. 
+                        <br>
+                      Sans grande surprise, je me suis rapidement interressée au design, mais je me suis surtout découvert une passion dévorante pour la programmation. 
+                      <br>
+                      Je suis curieuse, dynamique, j'aime voyager, découvrir de nouvelles choses et apprécie les nouveaux challenges.
+                      </p>
+                      <button class="btn-primary theme-classic"><a href="#experience">En savoir plus <i class="fa-solid fa-arrow-right"></i></a></button>
+                  </div>
+              </div>
+              <div class="banner__right theme-classic">
+                <img class="img__banner theme-classic" src="/img/cleme_line-art.png" alt="Dessin de Clémentine">
+                <img class="img__banner-2 theme-classic" src="/img/cleme_line-art2.png" alt="Dessin de Clémentine">
+              </div>
+        </section>
+  
+        <section class="mes-projets theme-classic" id="mes-projets">
+          <header class="theme-classic">
+            <h2>Mes projets</h2>
+            <i class="fa-solid fa-sliders filter-icon"></i>
+          </header>
+          <div class="filters theme-classic hidden">
+              <label class="checkbox-wrapper theme-classic" for="design">Design
+                <input type="checkbox" data-filter="Design" class="checkbox-filter theme-classic" name="UX">
+              </label>
+
+              <label class="checkbox-wrapper theme-classic" for="programmation">Programmation
+                <input type="checkbox" data-filter="Programmation" class="checkbox-filter theme-classic" name="programmation">
+              </label>
+              
+            </div>
+          <div class="projets theme-classic">
+            <button class="slider__btn--previous btn-primary theme-classic">&#10094;</button>
+            <div class="projets-grid theme-classic"></div>
+            <button class="slider__btn--next btn-primary theme-classic">&#10095;</button>
+          </div>
+          <div class="progress theme-classic">
+            <div class="progress__bar"></div>
+          </div>
+        </section>
+  
+        <section class="theme-classic a-propos">
+          <h2>À propos de...</h2>
+          <div class="theme-classic apropos-content">
+            <div class="theme-classic competences">
+              <h3 class="theme-classic">Mes compétences</h3>
+              <div class="theme-classic logo-container">
+                <div class="theme-classic logo">
+                  <img src="/img/html-1.svg" alt="logo html">
+                  <p>HTML5</p>
+                </div>
+                <div class="theme-classic logo">
+                  <img src="/img/css-3.svg" alt="logo css">
+                  <p>CSS3</p>
+                </div>
+                <div class="theme-classic logo">
+                  <img src="/img/javascript-1.svg" alt="logo javascript">
+                  <p>JavaScript</p>
+                </div>
+                <div class="theme-classic logo big">
+                  <img src="/img/figma-icon.svg" alt="logo figma">
+                  <p>Figma</p>
+                </div>
+
+                <div class="theme-classic logo small">
+                  <img src="/img/PHP-logo.svg" alt="logo php">
+                  <p>PHP</p>
+                </div>
+                <div class="theme-classic logo small">
+                  <img src="/img/React-icon.svg" alt="logo react">
+                  <p>React</p>
+                </div>
+                <div class="theme-classic logo">
+                  <img src="/img/wordpress-icon-1.svg" alt="logo wordpress">
+                  <p>Wordpress</p>
+                </div>
+                <div class="theme-classic logo">
+                  <img src="/img/angular-icon-1.svg" alt="logo angular">
+                  <p>Angular</p>
+                </div>
+                <div class="theme-classic logo">
+                  <img src="/img/adobe-illustrator-cc-3.svg" alt="logo adobe illustrator">
+                  <p>Illustrator</p>
+                </div>
+                <div class="theme-classic logo">
+                  <img src="/img/adobe-photoshop-2.svg" alt="logo adobe photoshop">
+                  <p>Photoshop</p>
+                </div>
+                <div class="theme-classic logo">
+                  <img src="/img/after-effects-1.svg" alt="logo adobe after-effects">
+                  <p>After Effetcs</p>
+                </div>
+              </div>
+            </div>
+
+            <div id="experience" class="theme-classic experience">
+              <h3 class="theme-classic">Mon experience</h3>
+              <div class="theme-classic experience-content">
+                <p>   Grâce à mes 12 ans de métier en pâtisserie, j’ai acquis des compétences qui me servent déjà beaucoup dans cette nouvelle voie. Chaque jour, ma rigueur, ma créativité, mon souci du détail et ma gestion du stress m’aident à me surpasser. Dans mes rôles de cheffe et d’enseignante, j’ai eu la chance de superviser des équipes et de transmettre mes connaissances, des atouts que je crois utiles au sein d’une entreprise et qui témoignent de ma capacité à travailler en équipe.
+                  Grâce à la pâtisserie, j’ai développé un œil pour l’esthétique et le détail, ce qui m’a initialement conduite vers le design web. Quant à la programmation, comme une recette, elle exige la même précision et organisation pour arriver à un résultat réussi. Au fil de ma formation, la programmation est devenue une passion qui s’est imposée d’elle-même. Aujourd’hui, je suis convaincue que ce domaine est fait pour moi : j’aime analyser, résoudre des problèmes et comprendre le fonctionnement de chaque projet.
+                  </p>
+                <p>   Ma formation, qui touche à sa fin, m’a permis d’acquérir de bonnes bases en développement et en design web. Je travaille avec des langages tels HTML et CSS, et j’apprécie particulièrement JavaScript. J'ai également appris à coder avec des frameworks comme React et Angular et des CMS tels que Wordpress et Shopify. Nous avons aussi eu l’opportunité de créer un site pour un client réel. J’ai pris plaisir à explorer chaque facette de du domaine du web : le design, la programmation, l’animation, la gestion de projet et le marketing. Ce secteur, en constante évolution, rend chaque projet unique.</p>
+              </div>
+              <a href="./assets/docs/cv_clementine-digout.pdf" class="download-cv theme-classic" download="cv_clementine-digout">Télécharger mon CV <i class="fa-solid fa-arrow-down"></i></a>
+            </div>
+          </div>
+        </section>
+  
+        <div id="dialog-projets" class="dialog">
+          <div class="border-dialog theme-classic">
+            <div class="dialog-details-projets theme-classic">
+              <button class="btn-close btn-primary theme-classic"><i class="fa-solid fa-xmark"></i></button>
+              <div class="dialog-content"></div>
+              <div class="btns-dialog">
+                <button class="btn-previous btn-primary theme-classic"><i class="fa-solid fa-chevron-left"></i> Précédent</button>
+                <button class="btn-next btn-primary theme-classic">Suivant <i class="fa-solid fa-chevron-right"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+    <footer class="theme-classic">
+      <div class="contact theme-classic" id="contact">
+        <a href="mailto:clementine.digout@yahoo.fr">
+          <i class="fa-regular fa-envelope"></i>
+          <p>Contact</p>
+        </a>
+      </div>
+      <div class="footer__icons">
+        <a href="https://www.linkedin.com/in/clementine-digout-400a632a5/" target="_blank">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/ClemeDigs/portefolio_3.git" target="_blank"><i class="fa-brands fa-github"></i></a>
+      </div>
+
+    </footer>
+
+    <script src="https://unpkg.com/gsap/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/gsap/dist/ScrollTrigger.min.js"></script>
+
+  </body>
+
+
+</html>
+

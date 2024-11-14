@@ -1,0 +1,126 @@
+[
+  {
+    "id": "1",
+    "name": "Trivia Game",
+    "img": "/img/trivia.png",
+    "imgAlt": "Page d'accueil du jeu trivia",
+    "stack": ["html", "tailwind", "javascript"],
+    "description": "",
+    "date": "Octobre 2024",
+    "categories": ["Programmation", "Design"],
+    "liens": { "github": "", "vercel": "https://trivia-henna-mu.vercel.app/" }
+  },
+  {
+    "id": "2",
+    "name": "Maison de la Culture du Pic Champlain",
+    "img": "/img/mcpc-design.png",
+    "imgAlt": "Haut de la page notre organisme",
+    "stack": ["figma", "illustrator"],
+    "description": "Projet pour un OBNL existant: La Maison de la Culture du Pic Champlain. Tâches effectuées: Recherche sur les utilisateurs et les compétiteurs, travail d'architecture, refonte du site web, maquettes basses et haute fidélité, prototype. Travail d'équipe.",
+    "date": "Juillet 2024",
+    "categories": ["Design"],
+    "liens": {
+      "figma": "https://www.figma.com/design/QfkPJ5HytDJHcPMwLEWSZH/MCPC_Projet-I_Design?node-id=1648-12850&t=f1Ag0t5pfL7PrKwz-1"
+    }
+  },
+  {
+    "id": "3",
+    "name": "Un Zeste de Clémentine",
+    "img": "",
+    "imgAlt": "Page d'accueil de Un Zeste de Clémentine",
+    "stack": ["html", "tailwind", "javascript"],
+    "description": "Projet dans le cadre du cours d'interface mobile. Implémentation d'un panier fonctionnel, des produits générés par une class Javascript, un formulaire et une infolettre avec validation de courriel.",
+    "date": "Juin 2024",
+    "categories": ["Programmation", "design"],
+    "liens": {
+      "github": "",
+      "vercel": "https://tl-02-interface-mobile-v4.vercel.app/"
+    }
+  },
+  {
+    "id": "4",
+    "name": "La Ruche",
+    "img": "",
+    "imgAlt": "Mockup de La Ruche",
+    "stack": ["figma", "Adobe Illustrator"],
+    "description": "Projet dans le cadre du cours de Design Web. Création d'un concept, recherche sur les utilisateurs, les compétiteurs, User Flow. Design d'un parcours utilisateur, des maquettes filaires, des maquettes haute fidélité, du prototypage final et du UI kit.",
+    "date": "Mai 2024",
+    "categories": ["Design"],
+    "liens": {
+      "figma": "https://www.figma.com/proto/m67k5H1VJST5X5zTyHnCzc/UI-Kit?page-id=105%3A1849&node-id=170-4765&viewport=300%2C-652%2C0.17&t=Q4qBzwFfLy6BzsaH-1&scaling=scale-down&starting-point-node-id=170%3A4765&classId=52aee0ef-409a-4d8a-a7fc-2b90b0636a3d&assignmentId=c197be93-1dcb-46c4-ad53-bff9c08867a1&submissionId=bde25ec6-03c2-704f-2825-055fe319821e"
+    }
+  },
+  {
+    "id": "5",
+    "name": "Divers projets UI",
+    "img": "",
+    "imgAlt": "Design d'une page produit",
+    "stack": ["figma"],
+    "description": "Projets réalisés au cours de la session de Design Web. Recherche, maquettes filaires, User Flows, utilisation de Figma, de banques de composants. Chaque challenge porte sur un thème différent. Interface utilisateur, formulaire, page produit d'une boutique en ligne, landing page, billet davion.",
+    "date": "Mai 2024",
+    "categories": ["Design"],
+    "liens": {
+      "figma": "https://www.figma.com/design/MNcl76WxCnkE1PFmhAVFmb/Design-Challenge---Cl%C3%A9mentine?node-id=0-1&t=mBXoIvAPB7hUoJXM-1"
+    }
+  },
+  {
+    "id": "6",
+    "name": "Motion Design",
+    "img": "",
+    "imgAlt": "Mosaique d'une image extraite de l'animation",
+    "stack": ["Adobe After Effects", "Adobe Animate"],
+    "description": "Projet dans le cadre du cours de production d'animation. Production d'une courte vidéo de Motion Design. Dessin, animation, esthétique.",
+    "date": "Avril 2024",
+    "categories": ["Autre"],
+    "liens": { "youtube": "https://youtu.be/NhTsudZq918" }
+  },
+  {
+    "id": "7",
+    "name": "Rapportde recommandations",
+    "img": "",
+    "imgAlt": "Image de présentation du rapport",
+    "stack": ["Excel", "Figma"],
+    "description": "Projet dans le cadre du cours d'ergonomie de l'interface. Tâches réalisées: Audit ergonomique et rapport de recommandations. Travail d'équipe sur le site web du café Smith, afin de repérer les points à améliorer et proposer des recommandations.",
+    "date": "Mars 2024",
+    "categories": ["Design"],
+    "liens": { "": "" }
+  },
+  {
+    "id": "8",
+    "name": "Jeux divers",
+    "img": "",
+    "imgAlt": "Interfaces des jeux",
+    "stack": ["html", "css", "javascript"],
+    "description": "Petits projets divers, personnels ou dans le cadre des cours en javascript vanille. Jeu des couleurs, pierre feuille ciseaux, morpion et jeu de mémoire.",
+    "date": "Janvier 2024",
+    "categories": ["Programmation"],
+    "liens": { "vercel": "https://color-game-kappa-peach.vercel.app/" }
+  },
+  {
+    "id": "9",
+    "name": "Palette aléatoire",
+    "img": "",
+    "imgAlt": "Interface de la palette aléatoire",
+    "stack": ["html", "css", "javascript"],
+    "description": "Projet dans le cadre du cours d'interactivité de l'interface. Création d'une palette aléatoire générée aléatoirement en fonction de la première couleur. Calcul des valeurs HSL en JavaScript.",
+    "date": "Fevrier 2024",
+    "categories": ["Programmation"],
+    "liens": {
+      "github": "#",
+      "vercel": "https://color-generator-smoky.vercel.app/"
+    }
+  },
+  {
+    "id": "10",
+    "name": "Incubateur A2",
+    "img": "",
+    "imgAlt": "Page projets de A2",
+    "stack": ["figma", "Adobe Illustrator"],
+    "description": "Projet dans le cadre du premier cours de Design Web. Le thème est un incubateur. Recherche sur le marché, les utilisateurs et les compétiteurs. Recherche de références. Design de deux pages, création des illustrations et des animations.",
+    "date": "Décembre 2023",
+    "categories": ["Design"],
+    "liens": {
+      "figma": "https://www.figma.com/design/v9XCB5gp2OReOfhRMsE9eI/A2?node-id=1-1154&t=U84hwU2J22RiCKQ1-1"
+    }
+  }
+]

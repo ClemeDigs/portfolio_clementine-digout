@@ -1,0 +1,58 @@
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+}
+
+footer.theme-classic a i {
+  color: var(--text-light);
+}
+
+footer.theme-classic {
+  background-color: var(--blue-dark);
+  color: var(--light);
+  font-family: "ubuntu";
+}
+
+footer.theme-color {
+  background-color: var(--bg-color);
+  color: var(--text-light);
+  font-family: "playwrite";
+}
+
+footer.theme-dark {
+  background-color: rgba(255, 255, 255, 0.04);
+}
+
+.contact a {
+  display: flex;
+  align-items: center;
+}
+
+.contact a p {
+  margin: 0;
+}
+
+.contact.theme-classic a,
+.contact.theme-color a {
+  color: var(--text-light);
+  gap: 1rem;
+}
+
+.contact.theme-dark a {
+  gap: 0.5rem;
+}
+
+footer .footer__icons {
+  display: flex;
+  gap: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  footer.theme-dark {
+    display: none;
+  }
+}

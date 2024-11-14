@@ -1,0 +1,192 @@
+.accueil.theme-classic {
+  padding-top: 68px;
+  width: 100vw;
+  height: calc(100vh - 70px);
+  background-image: url(/img/fond-accueil-2.png);
+  background-size: 550%;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Ubuntu";
+  color: var(--light);
+}
+
+.accueil h2 {
+  margin: 0;
+}
+
+.portfolio {
+  font-size: 52px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.year-dune {
+  display: flex;
+  gap: 1rem;
+}
+
+.year {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.dune {
+  font-size: 20px;
+  font-style: italic;
+  margin: 0;
+}
+
+.prog-junior {
+  border-radius: 20px;
+  border: 10px dotted var(--light);
+  background-color: var(--blue-dark);
+  color: var(--light);
+  font-size: 24px;
+  padding: 1rem;
+  display: flex;
+  width: fit-content;
+  rotate: -10deg;
+  position: relative;
+  left: 70px;
+  top: -30px;
+}
+
+.prog-junior p {
+  margin: 0;
+}
+
+.accueil.theme-color {
+  display: none;
+}
+
+.accueil.theme-dark {
+  display: none;
+}
+
+.ml6 {
+  position: relative;
+  font-weight: 900;
+  font-size: 3.3em;
+}
+
+.ml6 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml6 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.ml5 {
+  position: relative;
+  font-weight: 300;
+  font-size: 4.5em;
+}
+
+.ml5 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+  line-height: 1em;
+}
+
+.ml5 .line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 3px;
+  width: 100%;
+  background-color: var(--light);
+  transform-origin: 0.5 0;
+}
+
+.ml5 .ampersand {
+  margin-right: -0.1em;
+  margin-left: -0.1em;
+}
+
+.ml5 .letters {
+  display: inline-block;
+  opacity: 0;
+}
+
+.accueil.theme-color {
+  display: none;
+}
+
+.accueil.theme-dark {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .accueil.theme-classic {
+    background-size: 300%;
+  }
+
+  .portfolio {
+    font-size: 96px;
+  }
+
+  .year-dune {
+    gap: 1.5rem;
+  }
+
+  .year {
+    font-size: 72px;
+  }
+
+  .dune {
+    font-size: 28px;
+  }
+
+  .prog-junior {
+    font-size: 32px;
+    padding: 1.5rem;
+    display: flex;
+    left: 280px;
+    top: -120px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .accueil.theme-classic {
+    background-size: 150%;
+  }
+
+  .portfolio {
+    font-size: 120px;
+  }
+
+  .year-dune {
+    gap: 2rem;
+  }
+
+  .year {
+    font-size: 96px;
+  }
+
+  .dune {
+    font-size: 40px;
+  }
+
+  .prog-junior {
+    font-size: 48px;
+    padding: 2rem;
+    display: flex;
+    left: 380px;
+    top: -160px;
+  }
+}

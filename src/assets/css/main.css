@@ -1,0 +1,40 @@
+@import "body.css";
+@import "buttons.css";
+@import "header.css";
+@import "section-hero.css";
+@import "grid-projets.css";
+@import "modale-detail.css";
+@import "footer.css";
+@import "fonts.css";
+@import "animation.css";
+@import "accueil.css";
+@import "apropos.css";
+
+:root {
+  --text-dark: #0d0c0b;
+  --blue-dark: #064a69;
+  --blue-light: #0588a6;
+  --light: #eff4f4;
+  --pink: #d95b72;
+  --purple: #731459;
+  --none: rgba#000000(0, 0, 0, 0);
+
+  --bg-color: #f2a7a7;
+  --orange-dark: #f2762e;
+  --orange-light: #fabc64;
+  --violet: #574973;
+  --text-light: #eff4f4;
+
+  --dark: #02000d;
+  --dark-violet: #0d0126;
+  --grey: #262626;
+  --dark-blue: #030140;
+  --medium-blue: #030a8c;
+
+  --box-shadow: 2px 6px 10px rgba(0, 0, 0, 0.2);
+  --box-glow: 2px 6px 10px rgba(255, 255, 255, 0.3);
+}
+
+.hidden {
+  display: none;
+}

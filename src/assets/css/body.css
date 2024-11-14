@@ -1,0 +1,96 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  font-family: "montserrat";
+  font-weight: 500;
+  overflow-x: hidden;
+}
+
+main {
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+  padding: 2rem 0;
+}
+
+.wrapper {
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 2rem;
+}
+
+/* ----------------THEME CLASSIC--------------- */
+
+body.theme-classic {
+  align-items: center;
+  gap: 2rem;
+  background-color: var(--light);
+  color: var(--text-dark);
+}
+
+main.theme-classic {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ----------------THEME COLOR--------------- */
+
+body.theme-color {
+  align-items: center;
+  gap: 2rem;
+  background-color: var(--text-light);
+  color: var(--text-dark);
+  background-image: url(/img/motifs-couleurs.png);
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+main.theme-color {
+  margin-top: 12rem;
+  background-color: var(--light);
+  border-radius: 50px;
+  box-shadow: var(--box-shadow);
+}
+
+@media screen and (min-width: 768px) {
+  main.theme-color {
+    padding: 3rem;
+  }
+}
+
+/* ----------------THEME DARK--------------- */
+
+body.theme-dark {
+  display: block;
+  background-color: var(--dark);
+  background-image: url(/img/fond-dark.png);
+  background-attachment: fixed;
+  background-size: 100%;
+  color: var(--text-light);
+}
+
+main.theme-dark {
+  margin-top: 5rem;
+}
+
+@media screen and (min-width: 768px) {
+  body.theme-dark {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  main.theme-dark {
+    margin-top: 0;
+    grid-column: 2 / 10;
+    min-height: 100vh;
+    padding: 3rem 0;
+  }
+}
