@@ -21,6 +21,7 @@ footer.theme-color {
   background-color: var(--bg-color);
   color: var(--text-light);
   font-family: "playwrite";
+  font-weight: 700;
 }
 
 footer.theme-dark {

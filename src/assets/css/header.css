@@ -112,6 +112,7 @@ body.theme-color > header {
   height: 100px;
   transition: all 0.1s;
   font-family: "playwrite";
+  font-weight: 700;
 }
 
 body.theme-color > header.minimized {

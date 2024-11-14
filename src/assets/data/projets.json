@@ -4,18 +4,22 @@
     "name": "Trivia Game",
     "img": "/img/trivia.png",
     "imgAlt": "Page d'accueil du jeu trivia",
-    "stack": ["html", "tailwind", "javascript"],
-    "description": "",
+    "stack": ["HTML", "Tailwind", "JavaScript"],
+    "description": "Projet dans le cadre du cours d'application interactive. Fetch de données, utilisation du local storage, gestion des scores et du jeu en cours, changement d'interface en une seule page.",
     "date": "Octobre 2024",
     "categories": ["Programmation", "Design"],
-    "liens": { "github": "", "vercel": "https://trivia-henna-mu.vercel.app/" }
+    "liens": {
+      "github": "https://github.com/ClemeDigs/trivia.git",
+      "vercel": "https://trivia-henna-mu.vercel.app/",
+      "figma": "https://www.figma.com/design/iroepunx3oV9IkoxxJdWbQ/TL1---TRIVIA?node-id=0-1&t=15AXn97QpQhtr6Du-1"
+    }
   },
   {
     "id": "2",
     "name": "Maison de la Culture du Pic Champlain",
     "img": "/img/mcpc-design.png",
     "imgAlt": "Haut de la page notre organisme",
-    "stack": ["figma", "illustrator"],
+    "stack": ["Figma", "Adobe Illustrator"],
     "description": "Projet pour un OBNL existant: La Maison de la Culture du Pic Champlain. Tâches effectuées: Recherche sur les utilisateurs et les compétiteurs, travail d'architecture, refonte du site web, maquettes basses et haute fidélité, prototype. Travail d'équipe.",
     "date": "Juillet 2024",
     "categories": ["Design"],
@@ -25,24 +29,52 @@
   },
   {
     "id": "3",
-    "name": "Un Zeste de Clémentine",
-    "img": "",
-    "imgAlt": "Page d'accueil de Un Zeste de Clémentine",
-    "stack": ["html", "tailwind", "javascript"],
-    "description": "Projet dans le cadre du cours d'interface mobile. Implémentation d'un panier fonctionnel, des produits générés par une class Javascript, un formulaire et une infolettre avec validation de courriel.",
-    "date": "Juin 2024",
-    "categories": ["Programmation", "design"],
+    "name": "Le Botaniste (en cours)",
+    "img": "/img/botaniste.png",
+    "imgAlt": "Page d'accueil du Botaniste",
+    "stack": ["HTML", "Tailwind", "React", "Shopify"],
+    "description": "Projet en construction dans le cadre du cours d'application interactive. Implémentation d'un site avec Shopify et React. Adaptation des produits et du design selon le template de base.",
+    "date": "Novembre 2024",
+    "categories": ["Programmation"],
     "liens": {
-      "github": "",
-      "vercel": "https://tl-02-interface-mobile-v4.vercel.app/"
+      "github": "https://github.com/ClemeDigs/le_botaniste.git"
     }
   },
   {
     "id": "4",
+    "name": "Recherche sur Angular (en cours)",
+    "img": "/img/pokemon.png",
+    "imgAlt": "Page d'accueil de Un Zeste de Clémentine",
+    "stack": ["HTML", "CSS", "Angular", "TypeScript", "RevealJS"],
+    "description": "Projet en construction dans le cadre du cours de recherche et développement. Exploration d'Angular et présentation du framework. Création d'un projet avec des cartes pokemon pour comprendre les bases.",
+    "date": "Novembre 2024",
+    "categories": ["Programmation"],
+    "liens": {
+      "github": "https://github.com/ClemeDigs/angular.git",
+      "vercel": "https://angular-iota-lilac.vercel.app/",
+      "télécharger": "/docs/angular-18_p1.pdf"
+    }
+  },
+  {
+    "id": "5",
+    "name": "Un Zeste de Clémentine",
+    "img": "/img/un-zeste.png",
+    "imgAlt": "Page d'accueil de Un Zeste de Clémentine",
+    "stack": ["HTML", "Tailwind", "JavaScript"],
+    "description": "Projet dans le cadre du cours d'interface mobile. Implémentation d'un panier fonctionnel, des produits générés par une classe Javascript, un formulaire et une infolettre avec validation de courriel.",
+    "date": "Juin 2024",
+    "categories": ["Programmation", "Design"],
+    "liens": {
+      "github": "https://github.com/ClemeDigs/tl-02_interface-mobile_clementine.git",
+      "vercel": "https://tl-02-interface-mobile-v4.vercel.app/"
+    }
+  },
+  {
+    "id": "6",
     "name": "La Ruche",
-    "img": "",
+    "img": "/img/la-ruche.png",
     "imgAlt": "Mockup de La Ruche",
-    "stack": ["figma", "Adobe Illustrator"],
+    "stack": ["Figma", "Adobe Illustrator"],
     "description": "Projet dans le cadre du cours de Design Web. Création d'un concept, recherche sur les utilisateurs, les compétiteurs, User Flow. Design d'un parcours utilisateur, des maquettes filaires, des maquettes haute fidélité, du prototypage final et du UI kit.",
     "date": "Mai 2024",
     "categories": ["Design"],
@@ -51,12 +83,12 @@
     }
   },
   {
-    "id": "5",
+    "id": "7",
     "name": "Divers projets UI",
-    "img": "",
+    "img": "/img/design-challenge.png",
     "imgAlt": "Design d'une page produit",
-    "stack": ["figma"],
-    "description": "Projets réalisés au cours de la session de Design Web. Recherche, maquettes filaires, User Flows, utilisation de Figma, de banques de composants. Chaque challenge porte sur un thème différent. Interface utilisateur, formulaire, page produit d'une boutique en ligne, landing page, billet davion.",
+    "stack": ["Figma"],
+    "description": "Projets réalisés au cours de la session de Design Web. Recherche, maquettes filaires, User Flows, utilisation de Figma, de banques de composants. Chaque challenge porte sur un thème différent. Interface utilisateur, formulaire, page produit d'une boutique en ligne, landing page, billet d'avion.",
     "date": "Mai 2024",
     "categories": ["Design"],
     "liens": {
@@ -64,63 +96,57 @@
     }
   },
   {
-    "id": "6",
+    "id": "8",
     "name": "Motion Design",
-    "img": "",
+    "img": "/img/motion-design.png",
     "imgAlt": "Mosaique d'une image extraite de l'animation",
     "stack": ["Adobe After Effects", "Adobe Animate"],
     "description": "Projet dans le cadre du cours de production d'animation. Production d'une courte vidéo de Motion Design. Dessin, animation, esthétique.",
     "date": "Avril 2024",
-    "categories": ["Autre"],
-    "liens": { "youtube": "https://youtu.be/NhTsudZq918" }
-  },
-  {
-    "id": "7",
-    "name": "Rapportde recommandations",
-    "img": "",
-    "imgAlt": "Image de présentation du rapport",
-    "stack": ["Excel", "Figma"],
-    "description": "Projet dans le cadre du cours d'ergonomie de l'interface. Tâches réalisées: Audit ergonomique et rapport de recommandations. Travail d'équipe sur le site web du café Smith, afin de repérer les points à améliorer et proposer des recommandations.",
-    "date": "Mars 2024",
     "categories": ["Design"],
-    "liens": { "": "" }
-  },
-  {
-    "id": "8",
-    "name": "Jeux divers",
-    "img": "",
-    "imgAlt": "Interfaces des jeux",
-    "stack": ["html", "css", "javascript"],
-    "description": "Petits projets divers, personnels ou dans le cadre des cours en javascript vanille. Jeu des couleurs, pierre feuille ciseaux, morpion et jeu de mémoire.",
-    "date": "Janvier 2024",
-    "categories": ["Programmation"],
-    "liens": { "vercel": "https://color-game-kappa-peach.vercel.app/" }
+    "liens": {
+      "youtube": "https://youtu.be/NhTsudZq918"
+    }
   },
   {
     "id": "9",
-    "name": "Palette aléatoire",
-    "img": "",
-    "imgAlt": "Interface de la palette aléatoire",
-    "stack": ["html", "css", "javascript"],
-    "description": "Projet dans le cadre du cours d'interactivité de l'interface. Création d'une palette aléatoire générée aléatoirement en fonction de la première couleur. Calcul des valeurs HSL en JavaScript.",
-    "date": "Fevrier 2024",
-    "categories": ["Programmation"],
+    "name": "Rapport de recommandations",
+    "img": "/img/cafe-smith.png",
+    "imgAlt": "Image de présentation du rapport",
+    "stack": ["Figma"],
+    "description": "Projet dans le cadre du cours d'ergonomie de l'interface. Tâches réalisées: Audit ergonomique et rapport de recommandations. Travail d'équipe sur le site web du café Smith, afin de repérer les points à améliorer et proposer des recommandations.",
+    "date": "Mars 2024",
+    "categories": ["Design"],
     "liens": {
-      "github": "#",
-      "vercel": "https://color-generator-smoky.vercel.app/"
+      "figma": "https://www.figma.com/design/HR4FMSZ5Ys4pRzluCWs1Q6/Rapport-de-recommandations?node-id=0-1&t=XJjF06yBTPOWHypM-1",
+      "télécharger": "/docs/recommandations.pdf"
     }
   },
   {
     "id": "10",
-    "name": "Incubateur A2",
-    "img": "",
-    "imgAlt": "Page projets de A2",
-    "stack": ["figma", "Adobe Illustrator"],
-    "description": "Projet dans le cadre du premier cours de Design Web. Le thème est un incubateur. Recherche sur le marché, les utilisateurs et les compétiteurs. Recherche de références. Design de deux pages, création des illustrations et des animations.",
-    "date": "Décembre 2023",
-    "categories": ["Design"],
+    "name": "Jeux divers",
+    "img": "/img/jeux.png",
+    "imgAlt": "Interfaces des jeux",
+    "stack": ["HTML", "CSS", "JavaScript"],
+    "description": "Petits projets divers, personnels ou dans le cadre des cours en javascript vanille. Jeu des couleurs, pierre feuille ciseaux, morpion et jeu de mémoire.",
+    "date": "Janvier 2024",
+    "categories": ["Programmation"],
     "liens": {
-      "figma": "https://www.figma.com/design/v9XCB5gp2OReOfhRMsE9eI/A2?node-id=1-1154&t=U84hwU2J22RiCKQ1-1"
+      "vercel": "https://jeux-one.vercel.app/"
+    }
+  },
+  {
+    "id": "11",
+    "name": "Palette aléatoire",
+    "img": "/img/palette.png",
+    "imgAlt": "Interface de la palette aléatoire",
+    "stack": ["HTML", "CSS", "JavaScript"],
+    "description": "Projet personnel pour s'exercer en JavaScript. Création d'une palette aléatoire avec verouillage de couleurs.",
+    "date": "Avril 2024",
+    "categories": ["Programmation"],
+    "liens": {
+      "github": "https://github.com/ClemeDigs/palette.git",
+      "vercel": "https://palette.vercel.app/"
     }
   }
 ]

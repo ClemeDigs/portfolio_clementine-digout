@@ -48,7 +48,7 @@ export const projets = [
   ),
   new Projet(
     3,
-    "Le Botaniste",
+    "Le Botaniste (en cours)",
     imgBotaniste,
     "Page d'accueil du Botaniste",
     ["HTML", "Tailwind", "React", "Shopify"],
@@ -61,7 +61,7 @@ export const projets = [
   ),
   new Projet(
     4,
-    "Recherche sur Angular",
+    "Recherche sur Angular (en cours)",
     imgPokemon,
     "Page d'accueil de Un Zeste de Clémentine",
     ["HTML", "CSS", "Angular", "TypeScript", "RevealJS"],
@@ -153,7 +153,7 @@ export const projets = [
     ["Programmation"],
     "Janvier 2024",
     {
-      vercel: "https://color-game-kappa-peach.vercel.app/",
+      vercel: "https://jeux-one.vercel.app/",
     }
   ),
   new Projet(
