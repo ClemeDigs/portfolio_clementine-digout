@@ -8,6 +8,7 @@ import ScrollHandler from "./Scroll_Handler.js";
 import Slider from "./Slider.js";
 import HoverManager from "./Hover_Manager.js";
 import FilterManager from "./Filter_Manager.js";
+import AnimationManager from "./Animation_Manager.js";
 
 import "./generate_theme-manager.js";
 import "./generate_div-projet";
@@ -21,6 +22,7 @@ const slider = new Slider();
 const dialogManager = new DialogManager(projets);
 const filterManager = new FilterManager(slider);
 const scrollHandler = new ScrollHandler(btnSwitchTheme);
+const animationManager = new AnimationManager();
 new WOW().init();
 
 /* import data from "../data/projets.json";
