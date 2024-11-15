@@ -1,3 +1,5 @@
+import AnimationManager from "./Animation_Manager"; // Assurez-vous que le chemin est correct
+
 export default class Slider {
   constructor() {
     this.themeStylesheet = document.getElementById("theme-stylesheet");
@@ -7,10 +9,10 @@ export default class Slider {
     this.body = document.body;
     this.progressBar = document.querySelector(".progress__bar");
     this.currentSlideIndex = 0;
-    this.intervalValue;
+    this.intervalValue = null;
 
-    /*     this.animationOff =
-      JSON.parse(localStorage.getItem("animationOff")) ?? false; */
+    this.animationManager = new AnimationManager();
+    this.animationManager.setAnimations();
 
     this.updateSlides();
     this.hideBtns();
@@ -24,6 +26,16 @@ export default class Slider {
     this.btnNext.addEventListener("click", () => {
       this.nextSlide();
       this.hideBtns();
+    });
+
+    this.animationManager.btnToggleAnimation.forEach((btn) => {
+      btn.addEventListener("change", () => {
+        if (this.animationManager.animationOff) {
+          this.stopSlide();
+        } else {
+          this.changeSlide();
+        }
+      });
     });
   }
 
@@ -77,15 +89,24 @@ export default class Slider {
   }
 
   changeSlide() {
-    this.intervalValue = setInterval(() => {
-      if (this.currentSlideIndex === this.slides.length - 1) {
-        this.currentSlideIndex = 0;
-      } else {
-        this.currentSlideIndex++;
-      }
-      this.updateSlidePosition();
-      this.updateProgress();
-      this.hideBtns();
-    }, 3000);
+    if (!this.animationManager.animationOff) {
+      this.intervalValue = setInterval(() => {
+        if (this.currentSlideIndex === this.slides.length - 1) {
+          this.currentSlideIndex = 0;
+        } else {
+          this.currentSlideIndex++;
+        }
+        this.updateSlidePosition();
+        this.updateProgress();
+        this.hideBtns();
+      }, 3000);
+    }
+  }
+
+  stopSlide() {
+    if (this.intervalValue) {
+      clearInterval(this.intervalValue);
+      this.intervalValue = null;
+    }
   }
 }
