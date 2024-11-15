@@ -1,4 +1,4 @@
-import AnimationManager from "./Animation_Manager"; // Assurez-vous que le chemin est correct
+import AnimationManager from "./Animation_Manager";
 
 export default class Slider {
   constructor() {
