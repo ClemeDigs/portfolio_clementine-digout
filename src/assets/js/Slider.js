@@ -9,6 +9,9 @@ export default class Slider {
     this.currentSlideIndex = 0;
     this.intervalValue;
 
+    /*     this.animationOff =
+      JSON.parse(localStorage.getItem("animationOff")) ?? false; */
+
     this.updateSlides();
     this.hideBtns();
     this.changeSlide();

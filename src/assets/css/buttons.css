@@ -275,23 +275,25 @@ button:hover {
 }
 
 /* -----------------BUTTON ANIMATION -----------------*/
+.div__input-animation {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
 
-/* The switch - the box around the slider */
 .switch {
   position: relative;
   display: inline-block;
-  width: 60px;
-  height: 34px;
+  width: 52px;
+  height: 24px;
 }
 
-/* Hide default HTML checkbox */
 .switch input {
   opacity: 0;
   width: 0;
   height: 0;
 }
 
-/* The slider */
 .slider {
   position: absolute;
   cursor: pointer;
@@ -307,21 +309,21 @@ button:hover {
 .slider:before {
   position: absolute;
   content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
+  height: 18px;
+  width: 18px;
+  left: 2px;
+  bottom: 1px;
   background-color: white;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 
-input:checked + .slider {
-  background-color: #2196f3;
+input.theme-classic:checked + .slider {
+  background-color: var(--blue-light);
 }
 
-input:focus + .slider {
-  box-shadow: 0 0 1px #2196f3;
+input.theme-color:checked + .slider {
+  background-color: var(--orange-light);
 }
 
 input:checked + .slider:before {
@@ -330,11 +332,43 @@ input:checked + .slider:before {
   transform: translateX(26px);
 }
 
-/* Rounded sliders */
 .slider.round {
   border-radius: 34px;
+  border: 2px solid rgba(255, 251, 227, 0.5);
 }
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+/* ---------------BUTTON ANIMATION THEME-DARK------------- */
+
+.div__input-animation.theme-dark {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+input.theme-dark:checked + .slider {
+  background-color: var(--dark-violet);
+}
+
+.slider.round.theme-dark {
+  border-radius: 0%;
+}
+
+.slider.round.theme-dark:before {
+  border-radius: 0%;
+}
+
+@media screen and (min-width: 768px) {
+  .div__input-animation {
+    gap: 1rem;
+  }
+
+  .div__input-animation.theme-dark {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0;
+  }
 }

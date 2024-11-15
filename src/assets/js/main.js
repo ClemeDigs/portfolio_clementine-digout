@@ -1,7 +1,7 @@
 import "animate.css";
 import WOW from "wow.js";
 import "./animations.js";
-import { projets } from "./projets.js";
+import { projets } from "./generate_div-projet.js";
 
 import DialogManager from "./Dialog_Manager.js";
 import ScrollHandler from "./Scroll_Handler.js";
@@ -24,11 +24,3 @@ const filterManager = new FilterManager(slider);
 const scrollHandler = new ScrollHandler(btnSwitchTheme);
 const animationManager = new AnimationManager();
 new WOW().init();
-
-/* import data from "../data/projets.json";
-
-const img = document.createElement("img");
-img.setAttribute("src", data[0].img);
-
-document.querySelector("body").appendChild(img);
- */

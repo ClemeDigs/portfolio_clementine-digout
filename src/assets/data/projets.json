@@ -148,5 +148,18 @@
       "github": "https://github.com/ClemeDigs/palette.git",
       "vercel": "https://palette.vercel.app/"
     }
+  },
+  {
+    "id": "12",
+    "name": "Incubateur A2",
+    "img": "/img/a2.png",
+    "imgAlt": "Page projets de A2",
+    "stack": ["Figma", "Adobe Illustrator"],
+    "description": "Projet dans le cadre du premier cours de Design Web. Le thème est un incubateur. Recherche sur le marché, les utilisateurs et les compétiteurs. Recherche de références. Design de deux pages, création des illustrations et des animations.",
+    "date": "Décembre 2023",
+    "categories": ["Design"],
+    "liens": {
+      "figma": "https://www.figma.com/design/v9XCB5gp2OReOfhRMsE9eI/A2?node-id=1-1154&t=U84hwU2J22RiCKQ1-1"
+    }
   }
 ]
