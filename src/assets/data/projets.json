@@ -5,7 +5,7 @@
     "img": "/img/trivia.png",
     "imgAlt": "Page d'accueil du jeu trivia",
     "stack": ["HTML", "Tailwind", "JavaScript"],
-    "description": "Projet dans le cadre du cours d'application interactive. Fetch de données, utilisation du local storage, gestion des scores et du jeu en cours, changement d'interface en une seule page.",
+    "description": "Ce projet, réalisé dans le cadre du cours d'application interactive, consiste à créer un jeu de questions réponses avec une base de données externe. Entrièrement créé en langages de programmation vanilles, il utilise le local storage afin de stocker les meilleurs scores, les préférences de l'utilisateur et le jeu en cours. Pour ce projet, en équipe de deux, nous avons réalisé des maquettes sur Figma que nous avons reproduit à l'identique, tout en assurant un bel affichage pour tous les écrans. Pour ce qui est de la programmation, nous avons choisi une approche orientée objet afin que chaque fonctionnalité soit maintenable facilement.",
     "date": "Octobre 2024",
     "categories": ["Programmation", "Design"],
     "liens": {
@@ -20,7 +20,7 @@
     "img": "/img/mcpc-design.png",
     "imgAlt": "Haut de la page notre organisme",
     "stack": ["Figma", "Adobe Illustrator"],
-    "description": "Projet pour un OBNL existant: La Maison de la Culture du Pic Champlain. Tâches effectuées: Recherche sur les utilisateurs et les compétiteurs, travail d'architecture, refonte du site web, maquettes basses et haute fidélité, prototype. Travail d'équipe.",
+    "description": "La Maison de la Culture du Pic Champlain est un organisme à but non lucratif situé à côté de Rimouski. Pour ce projet, nous avons eu la chance de travailler des clients réels, une équipe passionée et très ouverte d'esprit. Nous avons, en équipe de 4, effectué une profonde recherche pour la refonte de leur site web sur les utilisateurs, les compétiteurs et l'architecture afin de leur proposer des maquettes et de nouvelles fonctonnalités qui seraient, peur eux comme pour les utilisateurs, utiles et pertinantes. Ce projet sera développé sur WordPress avec PHP en janvier 2025.",
     "date": "Juillet 2024",
     "categories": ["Design"],
     "liens": {
@@ -33,7 +33,7 @@
     "img": "/img/botaniste.png",
     "imgAlt": "Page d'accueil du Botaniste",
     "stack": ["HTML", "Tailwind", "React", "Shopify"],
-    "description": "Projet en construction dans le cadre du cours d'application interactive. Implémentation d'un site avec Shopify et React. Adaptation des produits et du design selon le template de base.",
+    "description": "Le Botaniste est un site web de vente de plantes en ligne. Réalisé avec Shopify et React, nous travaillons afin d'implémenter des composants interactifs et réactifs. Nous utilisons Shopify pour entrer des données qui sont récupérées avec des requêtes GraphQL, ainsi que des cookies pour garder en mémoire les préférences de l'utilisateur. Toujours en cours de développement, ce site web est une belle opportunité pour explorer des contextes réels de travail dans une compagnie de développement.",
     "date": "Novembre 2024",
     "categories": ["Programmation"],
     "liens": {
@@ -46,7 +46,7 @@
     "img": "/img/pokemon.png",
     "imgAlt": "Page d'accueil de Un Zeste de Clémentine",
     "stack": ["HTML", "CSS", "Angular", "TypeScript", "RevealJS"],
-    "description": "Projet en construction dans le cadre du cours de recherche et développement. Exploration d'Angular et présentation du framework. Création d'un projet avec des cartes pokemon pour comprendre les bases.",
+    "description": "Dans le cadre de ma formation en production en médias interactifs, j'ai choisi Angular comme sujet de recherche et développement. Toujours en cours de développement, ce projet consiste à explorer tous les aspects d'Angular et de les présenter à mes camarades. Pour ce projet, j'ai créé deux présentations et divers projets. Mon but est de pouvoir, dans un contexte professionnel, me repérer facilement dans un projet Angular avec ses mots-clés et son fonctionnement propre et bien sur, le permettre à mes camarades en leur synthétisant l'information le mieux possible.",
     "date": "Novembre 2024",
     "categories": ["Programmation"],
     "liens": {
@@ -61,7 +61,7 @@
     "img": "/img/un-zeste.png",
     "imgAlt": "Page d'accueil de Un Zeste de Clémentine",
     "stack": ["HTML", "Tailwind", "JavaScript"],
-    "description": "Projet dans le cadre du cours d'interface mobile. Implémentation d'un panier fonctionnel, des produits générés par une classe Javascript, un formulaire et une infolettre avec validation de courriel.",
+    "description": "Un Zeste de Clémentine est un site web de type commerce en programmation vanille. La vente en ligne n'est pas fonctionnelle, mais il se présente comme tel. Ce projet m'a permis de comprendre en détail le fonctionnement d'un panier, la programmation orientée objet et l'avantage des classes. Parmis les fonctionnalités de ce site web, il y a également la validation de formulaire et la génération de produits par composants JavaScript. ",
     "date": "Juin 2024",
     "categories": ["Programmation", "Design"],
     "liens": {
@@ -75,7 +75,7 @@
     "img": "/img/la-ruche.png",
     "imgAlt": "Mockup de La Ruche",
     "stack": ["Figma", "Adobe Illustrator"],
-    "description": "Projet dans le cadre du cours de Design Web. Création d'un concept, recherche sur les utilisateurs, les compétiteurs, User Flow. Design d'un parcours utilisateur, des maquettes filaires, des maquettes haute fidélité, du prototypage final et du UI kit.",
+    "description": "La Ruche est une maquette haute fidélité d'un projet créé dans le cours de design UX / UI. Le mandat était de créer un concept et d'effectuer de la recherche afin d'arriver à un prototype. J'ai choisi de designer une application mobile pour des échanges de services. Pour ma recherche, j'ai effectué des sondages, fait des recherches surles utilisateurs potentiels, les compétiteurs, shématisé un parcours utilisateur et établi une planche d'ambiance avant de commencer à designer. Par la suite, j'ai créé des maquettes filaires, haute fidélité puis un prototype final, le tout accompagné d'un UI kit.",
     "date": "Mai 2024",
     "categories": ["Design"],
     "liens": {
@@ -88,7 +88,7 @@
     "img": "/img/design-challenge.png",
     "imgAlt": "Design d'une page produit",
     "stack": ["Figma"],
-    "description": "Projets réalisés au cours de la session de Design Web. Recherche, maquettes filaires, User Flows, utilisation de Figma, de banques de composants. Chaque challenge porte sur un thème différent. Interface utilisateur, formulaire, page produit d'une boutique en ligne, landing page, billet d'avion.",
+    "description": "Ces divers petits projets, présentés comme des challenges, étaient réalisés en quelques heures seulement dans le cadre du cours de design UX / UI. Pour chaque projet, j'ai effectué une phase de recherche, une maquette filaire, un user flow avant d'en arriver à la maquette finale. Parfois, j'ai utilisé des banques de composants. Chaque challenge portait sur un thème différent. Parmis ceux-ci, l'interface utilisateur, le formulaire, la page produit d'une boutique en ligne, une landing page, et un billet d'avion.",
     "date": "Mai 2024",
     "categories": ["Design"],
     "liens": {
