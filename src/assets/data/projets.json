@@ -101,7 +101,7 @@
     "img": "/img/motion-design.png",
     "imgAlt": "Mosaique d'une image extraite de l'animation",
     "stack": ["Adobe After Effects", "Adobe Animate"],
-    "description": "Projet dans le cadre du cours de production d'animation. Production d'une courte vidéo de Motion Design. Dessin, animation, esthétique.",
+    "description": "Cette petite vidéo, créée dans le cadre du cours de production d'animation, est  réalisée avec les lociels Animate et After Effects de la suite Adobe. Le thème était libre. J'ai choisi une palette de couleur vive et des animations qui pourraient se retrouver sur un site web: une bannière animée, une icône de chargement, un cercle nuit - jour. Le logiciel Animade permet d'exporter des animations vers le Web, ce qui a tout de suite siscité mon intérêt pour ce cours.",
     "date": "Avril 2024",
     "categories": ["Design"],
     "liens": {
@@ -114,7 +114,7 @@
     "img": "/img/cafe-smith.png",
     "imgAlt": "Image de présentation du rapport",
     "stack": ["Figma"],
-    "description": "Projet dans le cadre du cours d'ergonomie de l'interface. Tâches réalisées: Audit ergonomique et rapport de recommandations. Travail d'équipe sur le site web du café Smith, afin de repérer les points à améliorer et proposer des recommandations.",
+    "description": "Ce projet, dans le cadre du cours d'ergonomie de l'interface, a pour but de proposer à un site web existant des recommandations pour améliorer l'experience utilisateur. En équipe de trois, nous avons effectué un audit érgonomique, c'est à dire étudié chaque page du site web et chaque intéraction possible pour trouver des problèmes éventuels. Puis,nous avons écrit un rapport de recommandations en expliquant le point à améliorer puis en proposant des solutions selon des lois érgonomiques.",
     "date": "Mars 2024",
     "categories": ["Design"],
     "liens": {
@@ -128,7 +128,7 @@
     "img": "/img/jeux.png",
     "imgAlt": "Interfaces des jeux",
     "stack": ["HTML", "CSS", "JavaScript"],
-    "description": "Petits projets divers, personnels ou dans le cadre des cours en javascript vanille. Jeu des couleurs, pierre feuille ciseaux, morpion et jeu de mémoire.",
+    "description": "Ces petits jeux, projets personnels ou réalisés dans le cadre du cours, m'ont permis d'implémenter des logiques avec le langage Javascript. Dans le jeu de morpion, j'utilise le concept de gestion du tour et la vérification d'égalité. Le jeu ds couleurs consiste à cliquer sur le bouton quand il est de la même couleur que le fond; il prend en compte un système de score et de minuterie. Le jeu de mémoire utilise le mélange aléatoire, la comparaison et la mémorisation. Le jeu de pierre feuille ciseaux se concentre sur les détections des règle de victoire et les mises à jour du score et de l'affichage.",
     "date": "Janvier 2024",
     "categories": ["Programmation"],
     "liens": {
@@ -141,7 +141,7 @@
     "img": "/img/palette.png",
     "imgAlt": "Interface de la palette aléatoire",
     "stack": ["HTML", "CSS", "JavaScript"],
-    "description": "Projet personnel pour s'exercer en JavaScript. Création d'une palette aléatoire avec verouillage de couleurs.",
+    "description": "Ce petit projet est le premier que j'ai fait avec le langage JavaScript. C'est celui-ci qui m'a donné l'amour de la programmation. Le mandat était de faire afficher des couleurs aléatoires en cliquant sur un bouton. J'ai continué ce projet seule pour que la palette de couleur générée aléatoirement respecte les couleurs complémentaires et similaires. J'ai donc refléchi à changer la valeur des couleurs pour les calculer grâce à leur teinte pour arriver à une palette agréable à l'oeil.",
     "date": "Avril 2024",
     "categories": ["Programmation"],
     "liens": {
@@ -155,7 +155,7 @@
     "img": "/img/a2.png",
     "imgAlt": "Page projets de A2",
     "stack": ["Figma", "Adobe Illustrator"],
-    "description": "Projet dans le cadre du premier cours de Design Web. Le thème est un incubateur. Recherche sur le marché, les utilisateurs et les compétiteurs. Recherche de références. Design de deux pages, création des illustrations et des animations.",
+    "description": "Ce projet est le tout premier que j'ai réalisé en design. Le thème à respecter était un incubateur pour les femmes dans le domnaine technologique. Pour ce faire, j'ai en premier lieu effectué une phase d'alignement stratégique: recherche sur le marché, les utilisateurs et les compétiteurs pour arriver à un concept. Dans un second temps, j'ai cherché des références, des animations et des illustrations pour créer une planche d'ambiance. Finalement, j'ai réalisé les maquettes de deux pages, créé toutes les illustrations et les animations ainsi que le guide d'utilisation.",
     "date": "Décembre 2023",
     "categories": ["Design"],
     "liens": {
