@@ -1,67 +1,63 @@
 .dialog {
-    display: none;
-    grid-template-columns: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100dvw;
-    height: 100dvh;
-    margin: 0;
-    z-index: 20;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  z-index: 20;
 }
 
-.dialog[open]{
-    animation: fadeIn 0.5s forwards;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
+.dialog[open] {
+  animation: fadeIn 0.5s forwards;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
-
-.dialog[closing]{
-    animation: fadeOut 0.5s forwards;
+.dialog[closing] {
+  animation: fadeOut 0.5s forwards;
 }
-
 
 @keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fadeOut {
-    from {
-        opacity: 1;
-    }
-    to {
-        opacity: 0;
-    }
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
 
 @keyframes slinInLeft {
-    from {
-        transform: translateX(-100%);
-    }
-    to {
-        transform: translateX(0%);
-    }
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
 }
 
 @keyframes slinOutLeft {
-    from {
-        transform: translateX(0%);
-    }
-    to {
-        transform: translateX(-100%);
-    }
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }
 
-
 @media screen and (min-width: 1024px) {
-    .dialog[open]{
-        grid-template-columns: repeat(12,1fr);
-    }
+  .dialog[open] {
+    grid-template-columns: repeat(12, 1fr);
+  }
 }
