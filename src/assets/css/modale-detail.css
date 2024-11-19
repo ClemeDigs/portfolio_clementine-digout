@@ -1,6 +1,6 @@
 .border-dialog {
   box-shadow: var(--box-shadow);
-  height: 70%;
+  height: 85%;
   grid-column: 1/5;
   align-self: center;
   padding: 1rem;

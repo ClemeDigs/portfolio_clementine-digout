@@ -12,8 +12,9 @@
 
 .dialog[open] {
   animation: fadeIn 0.5s forwards;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .dialog[closing] {
@@ -58,6 +59,7 @@
 
 @media screen and (min-width: 1024px) {
   .dialog[open] {
+    display: grid;
     grid-template-columns: repeat(12, 1fr);
   }
 }
